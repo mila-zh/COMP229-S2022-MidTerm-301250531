@@ -11,6 +11,8 @@
         <div class="col-md-offset-1 col-md-10">
           <h3>Favourite Books List </h3>
           
+          <!-- Lyudmila Zhurba -->
+          <!-- Add Button -->
           <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
           <br>
           <div class="table-responsive">
@@ -34,10 +36,13 @@
                   <td class="text-center"><%= books[count].Author %></td>
                   <td class="text-center"><%= books[count].Genre %></td>
 
+                  <!-- Lyudmila Zhurba -->
+                  <!-- Edit Button -->
                   <td class="text-center">                    
                     <a href="/books/<%= books[count]._id %>" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
                   </td>
-
+                  <!-- Lyudmila Zhurba -->
+                   <!-- Add Button -->
                   <td class="text-center">                   
                     <a href="/books/delete/<%= books[count]._id %>" class="btn btn-primary"><i class="fa fa-remove"></i> Delete</a>
                   </td>
